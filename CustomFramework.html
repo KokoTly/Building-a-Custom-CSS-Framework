@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom CSS Framework</title>
+    <link rel="stylesheet" href="CustomFramework.css">
+</head>
+<body>
+    <header class="bg-primary py-3 text-white text-center">
+        <h1>Custom CSS Framework</h1>
+    </header>
+
+    <main class="container mt-4">
+        <section class="mb-4">
+            <h2>Grid System</h2>
+            <div class="row">
+                <div class="col col-6">
+                    <div class="card">
+                        <h3>Simple Cards</h3>
+                        <p>If you’re new to CSS Grid, you’ll want to brush up on the basics and create a simple CSS Grid Layout. Cards are great a great way to display content, as well as an interesting UI element that’s intuitive to use.<br>
+
+                            They also provide a great format for users to quickly scan content and engage with what they’re most interested in. Cards also allow designers to format content in a visually appealing way, with great imagery, intro content, links, and more! </p>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <div class="card">
+                        <h3>Cards and Overall Page Layout</h3>
+                        <p>As an aside, it’s important to know that CSS Grid does not have to be used on an entire page layout. Grids can be used in certain areas of the page if needed.<br>
+
+                            Since this is a tutorial on card layouts, a grid approach can be used exclusively here even if the rest of the page does not utilize CSS Grid. As long as the grid area is defined and display: grid; is declared on the wrapper, this approach can be used.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <h2>Buttons</h2>
+            <button class="btn">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+        </section>
+
+        <section class="mb-4">
+            <h2>Forms</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="input-field" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="input-field" required>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark py-3 text-white text-center mt-4">
+        <p>&copy; 2024 Custom CSS Framework</p>
+    </footer>
+</body>
+</html>

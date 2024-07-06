@@ -1,0 +1,77 @@
+/* Grid System */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.col-1 { flex: 0 0 8.33333%; }
+.col-2 { flex: 0 0 16.66667%; }
+.col-3 { flex: 0 0 25%; }
+.col-4 { flex: 0 0 33.33333%; }
+.col-5 { flex: 0 0 41.66667%; }
+.col-6 { flex: 0 0 50%; }
+.col-7 { flex: 0 0 58.33333%; }
+.col-8 { flex: 0 0 66.66667%; }
+.col-9 { flex: 0 0 75%; }
+.col-10 { flex: 0 0 83.33333%; }
+.col-11 { flex: 0 0 91.66667%; }
+.col-12 { flex: 0 0 100%; }
+
+/* Common UI Components */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0ca91b;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #10b618cd;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #a17b08;
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.mt-4 { margin-top: 20px; }
+.mb-4 { margin-bottom: 20px; }
+.py-3 { padding-top: 15px; padding-bottom: 15px; }
+.px-3 { padding-left: 15px; padding-right: 15px; }
